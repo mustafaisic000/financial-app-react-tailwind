@@ -1,4 +1,5 @@
 # React + TypeScript + Vite
+It's a web app for the promotion of a made up financial app in React. It is built using modern web technologies to ensure responsiveness across various devices, including desktops, tablets, and mobile phones.
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
