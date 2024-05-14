@@ -7,9 +7,9 @@ function Nav() {
   const textLinkClasses =
     "text-gray-500 hover:text-gray-900 active:text-gray-400";
   const navLinks = [
-    { href: "features", children: "Features" },
-    { href: "partners", children: "Partners" },
-    { href: "reviews", children: "Reviews" },
+    { href: "#features", children: "Features" },
+    { href: "#partners", children: "Partners" },
+    { href: "#reviews", children: "Reviews" },
   ];
 
   return (
@@ -51,12 +51,7 @@ function Nav() {
           </div>
           <Disclosure.Panel className="space-y-1 px-4 sm:hidden">
             {navLinks.map((link, index) => (
-              <Disclosure.Button
-                className="block"
-                as="a"
-                href="#features"
-                key={index}
-              >
+              <Disclosure.Button className="block" as="a" href="#" key={index}>
                 {link.children}
               </Disclosure.Button>
             ))}
