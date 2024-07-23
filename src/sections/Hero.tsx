@@ -1,5 +1,3 @@
-import AppleLogo from "../assets/logos/app_store.svg";
-import GooglePlay from "../assets/logos/google_play.svg";
 import StoreLinks from "../common/StoreLinks";
 import Phone from "../assets/mockup.svg";
 import HeroImage from "../assets/hero.png";
