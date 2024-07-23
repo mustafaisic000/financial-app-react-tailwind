@@ -1,3 +1,6 @@
+# LINK OF PAGE DEPLOYED BY NETIFY
+https://kobodropappsite.netlify.app/
+
 # React + TypeScript + Vite
 It's a web app for the promotion of a made up financial app in React. It is built using modern web technologies to ensure responsiveness across various devices, including desktops, tablets, and mobile phones.
 
