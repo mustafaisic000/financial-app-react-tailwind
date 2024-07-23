@@ -51,7 +51,12 @@ function Nav() {
           </div>
           <Disclosure.Panel className="space-y-1 px-4 sm:hidden">
             {navLinks.map((link, index) => (
-              <Disclosure.Button className="block" as="a" href="#" key={index}>
+              <Disclosure.Button
+                className="block"
+                as="a"
+                href={link.href}
+                key={index}
+              >
                 {link.children}
               </Disclosure.Button>
             ))}
